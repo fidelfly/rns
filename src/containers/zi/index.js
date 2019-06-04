@@ -9,7 +9,7 @@ import {
   TouchableOpacity,
   InteractionManager,
 } from 'react-native';
-import { Icon, } from 'components';
+import { Icon, } from '../../components';
 import { ListItem, ListParagraph, } from '../../components';
 import HomeSelector from '../../app/selectors/home';
 import * as HomeActions from '../../app/actions/home';

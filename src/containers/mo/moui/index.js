@@ -1,6 +1,6 @@
 import React, { Component, } from 'react';
 import { StyleSheet, Text, View, } from 'react-native';
-import { Toast, Loading, } from 'components';
+import { Toast, Loading, } from '../../../components';
 
 const styles = StyleSheet.create({
   container: {
