@@ -1,5 +1,5 @@
 import { createBottomTabNavigator, createStackNavigator, createAppContainer, createSwitchNavigator, } from 'react-navigation';
-import { mergeJSON, } from 'utils/util';
+import { mergeJSON, } from '../commons/utils/util';
 
 import { BottomTabNavigatorConfig, StackNavigatorConfig, } from '../config';
 import * as pages from './index';
