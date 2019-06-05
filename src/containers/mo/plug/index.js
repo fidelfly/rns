@@ -43,6 +43,11 @@ export default class Plug extends Component {
     navigation.navigate('Gong');
   };
 
+  goTable = () => {
+    const { navigation } = this.props;
+    navigation.navigate('T');
+  }
+
   render() {
     return (
       <View style={styles.container}>
@@ -110,6 +115,14 @@ export default class Plug extends Component {
         >
           redux集成!
         </Text>
+        <Text
+         style={styles.welcome}
+         onPress={() => {
+           this.goTable();
+         }}
+         >
+           Table demo!
+         </Text>
 
       </View>
     );

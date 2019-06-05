@@ -10,7 +10,7 @@ const TabNav = createBottomTabNavigator(
     Mo: pages.Mo,
     Zi: pages.Zi,
     Gong: pages.Gong,
-    Cheng: pages.Cheng,
+    Cheng: pages.Cheng
   },
   BottomTabNavigatorConfig({
     initialRouteName: 'Mo',
@@ -41,6 +41,7 @@ const AppStack = createStackNavigator(
     Back: pages.Back,
     Backa: pages.Backa,
     HeaderImageScrollView: pages.HeaderImageScrollView,
+    T: pages.TableDemo
   },
   StackNavigatorConfig({
     initialRouteName: 'Root',

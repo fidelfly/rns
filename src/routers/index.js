@@ -7,6 +7,7 @@ import Web from '../containers/demo/web';
 import Back from '../containers/demo/back';
 import Backa from '../containers/demo/backa';
 import HeaderImageScrollView from '../containers/gong/HeaderImageScrollView';
+import TableDemo from '../containers/tabledemo';
 
 module.exports = {
   Mo,
@@ -17,4 +18,5 @@ module.exports = {
   Back,
   Backa,
   HeaderImageScrollView,
+  TableDemo,
 };
